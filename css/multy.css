@@ -1,0 +1,28 @@
+.MultiCarousel { float: left; overflow: hidden; 
+/* padding: 15px; */
+width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: left; padding:3px; margin:3px;}
+    .leftLst, .rightLst { position:absolute; 
+	/* border-radius:50%;top:calc(50% - 20px); */   
+      display: block;   
+      /* width: 37px;   
+      height: 37px; */
+	}
+    .leftLst { right:6%; 
+	background-color: rgba(1,1,1,0.0);
+	top: 3%;}
+    .rightLst { right:1%; 
+	/* background-image: url(img/right.png);*/
+	background-color: rgba(1,1,1,0.0);
+	top: 3%;
+	}
+    
+    .leftLst.over, .rightLst.over { pointer-events: none;
+	/* opacity: 0.5;*/
+	}
+	
+	
+	
+	
